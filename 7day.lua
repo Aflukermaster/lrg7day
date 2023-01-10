@@ -40,7 +40,7 @@ Mul1 = OFF
 function menu1() 
 if Mul1 == OFF then
 gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("-0.50344026089;0.0;-0.00076649617", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0) 
+gg.searchNumber("-0.50289821625;0.0;1.8840385e-38;-0.50344026089;-3;-0.00076649617", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0) 
 gg.refineNumber("0.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0) 
 gg.getResults(100)
 gg.editAll("-3", gg.TYPE_FLOAT)
@@ -48,7 +48,7 @@ gg.clearResults()
 Mul1 = ON
 elseif Mul1 == ON then
 gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("-0.50344026089;-3;-0.00076649617", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0) 
+gg.searchNumber("-0.50289821625;-3;1.8840385e-38;-0.50344026089;-3;-0.00076649617", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0) 
 gg.refineNumber("-3", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0) 
 gg.getResults(100)
 gg.editAll("0.0", gg.TYPE_FLOAT)
@@ -84,7 +84,7 @@ Mul3 = OFF
 function menu3() 
 if Mul3 == OFF then
 gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("-0.50289821625;0.0;1.87866312e-38", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0) 
+gg.searchNumber("-0.50289821625;0.0;1.8840385e-38", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0) 
 gg.refineNumber("0.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0) 
 gg.getResults(100)
 gg.editAll("100", gg.TYPE_FLOAT)
@@ -92,7 +92,7 @@ gg.clearResults()
 Mul3 = ON
 elseif Mul3 == ON then
 gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("-0.50289821625;100;1.87866312e-38", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0) 
+gg.searchNumber("-0.50289821625;100;1.8840385e-38", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0) 
 gg.refineNumber("100", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0) 
 gg.getResults(100)
 gg.editAll("0.0", gg.TYPE_FLOAT)
@@ -106,7 +106,7 @@ Mul4 = OFF
 function menu4() 
 if Mul4 == OFF then
 gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("100.0;-100.0;-1.35386922e37", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0) 
+gg.searchNumber("100.0;-100.0;-1.08802362e37", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0) 
 gg.refineNumber("-100.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0) 
 gg.getResults(100)
 gg.editAll("9,999,999.0", gg.TYPE_FLOAT)
@@ -114,7 +114,7 @@ gg.clearResults()
 Mul4 = ON
 elseif Mul4 == ON then
 gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("100.0;9,999,999.0;-1.35386922e37", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0) 
+gg.searchNumber("100.0;9,999,999.0;-1.08802362e37", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0) 
 gg.refineNumber("9,999,999.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0) 
 gg.getResults(100)
 gg.editAll("-100.0", gg.TYPE_FLOAT)
@@ -172,7 +172,7 @@ Mul7 = OFF
 function menu7() 
 if Mul7 == OFF then
 gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("3.71035807e-41;100;7.74472407e31", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0) 
+gg.searchNumber("3.71035807e-41;100.0;7.74472407e31", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0) 
 gg.refineNumber("100", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0) 
 gg.getResults(100)
 gg.editAll("999", gg.TYPE_FLOAT)
