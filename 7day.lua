@@ -40,7 +40,7 @@ Mul1 = OFF
 function menu1() 
 if Mul1 == OFF then
 gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("-0.50289821625;0.0;1.8840385e-38;-0.50344026089;-3;-0.00076649617", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0) 
+gg.searchNumber("-0.50289821625;0.0;1.8840385e-38;-0.50344026089;0.0;-0.00076649617", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0) 
 gg.refineNumber("0.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0) 
 gg.getResults(100)
 gg.editAll("-3", gg.TYPE_FLOAT)
